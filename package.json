@@ -2,10 +2,10 @@
   "name": "it-academy",
   "version": "1.0.0",
   "scripts": {
-    "lint": "eslint --ext .js src/",
-    "lint-js": "eslint --ext .js src/",
+    "lint": "npm run lint-html && npm run lint-css && npm run lint-js",
+    "lint-html": "linthtml src/**/*.html",
     "lint-css": "stylelint **/*.css",
-    "lint-html": "linthtml src/**/*.html"
+    "lint-js": "eslint --ext .js src/"
   },
   "dependencies": {},
   "devDependencies": {
