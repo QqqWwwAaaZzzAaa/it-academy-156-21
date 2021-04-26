@@ -2,7 +2,6 @@ const s = 23;
 
 let v;
 if (s === 2) {
-    v = getRule();
 }
 
 function getRule() {
@@ -11,6 +10,6 @@ function getRule() {
     });
 }
 
-const b = 'b2';
+const b = 'b2' + '123';
 const a = `123132${b}dsfsd`;
 console.log(a + b + v);
