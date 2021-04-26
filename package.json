@@ -1,0 +1,21 @@
+{
+  "name": "it-academy",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --ext .js src/",
+    "lint-js": "eslint --ext .js src/",
+    "lint-css": "stylelint **/*.css",
+    "lint-html": "linthtml src/**/*.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.7.0",
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "stylelint": "^13.13.0",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
